@@ -1,8 +1,20 @@
-/* This is the property I searched up */
-* {
-    margin: 10px;
+/* This is one of the properties I searched up */
+h1, h2, p {
+    margin: 20px;
+}
+
+img {
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    margin-top: 7px;
+    margin-bottom: 15px;
 }
 
 a {
     font-weight: bold;
+}
+
+#orderfood {
+    font-size: 20px;
 }
