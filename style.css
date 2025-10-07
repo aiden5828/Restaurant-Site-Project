@@ -19,6 +19,22 @@ a {
     font-size: 20px;
 }
 
+#tasty {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    margin-left: 50%;
+    top: 10%;
+}
+
+#drool {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    margin-left: 50%;
+    top: 110%;
+}
+
 .list {
     margin-left: 50px;
 }
