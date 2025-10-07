@@ -18,3 +18,11 @@ a {
 #orderfood {
     font-size: 20px;
 }
+
+.list {
+    margin-left: 50px;
+}
+
+.main {
+    text-align: left;
+}
