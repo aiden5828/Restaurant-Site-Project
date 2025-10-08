@@ -1,12 +1,29 @@
 /* This is one of the properties I searched up */
-h1, h2, p {
+h1, h2, h3, p {
     margin: 20px;
+    text-align: center;
+}
+
+* {
+    color: white;
+    font-family: Cursive;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+li {
+    font-size: 20px;
 }
 
 img {
-    border-radius: 10px;
-    height: 100px;
-    width: 100px;
+    height: 250px;
+    width: 250px;
     margin-top: 7px;
     margin-bottom: 15px;
 }
@@ -16,7 +33,8 @@ a {
 }
 
 #orderfood {
-    font-size: 20px;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 #tasty {
@@ -35,10 +53,30 @@ a {
     top: 110%;
 }
 
+#background {
+    border-radius: 0px;
+    z-index: -1;
+    position: fixed;
+    inset: 0;
+    top: -7px;
+    width: 100%;
+    min-height: 100%;
+}
+
+#food {
+    font-size: 20px;
+}
+
 .list {
-    margin-left: 50px;
+    margin-left: 30%;
 }
 
 .main {
     text-align: left;
+}
+
+.whitebox {
+    padding: 20px;
+    z-index: 999;
+    color: white;
 }
